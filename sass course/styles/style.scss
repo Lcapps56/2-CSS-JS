@@ -1,0 +1,8 @@
+@import './variables';
+@import './_default.scss';
+@import './header';
+
+.contact {
+    @extend header;
+    background-color: coral;
+}

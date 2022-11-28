@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header, .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: lightblue;
+}
+header button, .contact button {
+  background: rgb(55, 121, 86);
+}
+header button:hover, .contact button:hover {
+  background-color: green;
+}
+
+.contact {
+  background-color: coral;
+}/*# sourceMappingURL=style.css.map */
