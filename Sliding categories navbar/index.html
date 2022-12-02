@@ -1,34 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Draggable Slider Tabs | CodingNepal</title>
     <link rel="stylesheet" href="./style/style.css">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="m11.29 12l3.54-3.54a1 1 0 0 0 0-1.41a1 1 0 0 0-1.42 0l-4.24 4.24a1 1 0 0 0 0 1.42L13.41 17a1 1 0 0 0 .71.29a1 1 0 0 0 .71-.29a1 1 0 0 0 0-1.41Z"/></svg></div>
-        <ul class="tabs-box">
-            <li class="tab">Coding</li>
-            <li class="tab">Javascript</li>
-            <li class="tab">Databases</li>
-            <li class="tab">Node.js</li>
-            <li class="tab">SASS</li>
-            <li class="tab">Python</li>
-            <li class="tab">Django</li>
-            <li class="tab">Rest API</li>
-            <li class="tab">Ajax</li>
-            <li class="tab">SQL</li>
-            <li class="tab">HTTP</li>
-            <li class="tab">E-commerce</li>
-            <li class="tab">Leland</li>
-            <li class="tab">Is</li>
-            <li class="tab">Cool</li>
-        </ul>
-        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="m14.83 11.29l-4.24-4.24a1 1 0 0 0-1.42 0a1 1 0 0 0 0 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41a1 1 0 0 0 .71.29a1 1 0 0 0 .71-.29l4.24-4.24a1 1 0 0 0 0-1.42Z"/></svg></div>
-    </header>
-</body>
-</html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome CDN Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="icon"><i id="left" class="fa-solid fa-angle-left"></i></div>
+      <ul class="tabs-box">
+        <li class="tab">Coding</li>
+        <li class="tab active">JavaScript</li>
+        <li class="tab">Podcasts</li>
+        <li class="tab">Databases</li>
+        <li class="tab">Web Development</li>
+        <li class="tab">Unboxing</li>
+        <li class="tab">History</li>
+        <li class="tab">Programming</li>
+        <li class="tab">Gadgets</li>
+        <li class="tab">Algorithms</li>
+        <li class="tab">Comedy</li>
+        <li class="tab">Gaming</li>
+        <li class="tab">Share Market</li>
+        <li class="tab">Smartphones</li>
+        <li class="tab">Data Structure</li>
+      </ul>
+      <div class="icon"><i id="right" class="fa-solid fa-angle-right"></i></div>
+    </div>
+    <script src="./logic.js" ></script>
+  </body>
