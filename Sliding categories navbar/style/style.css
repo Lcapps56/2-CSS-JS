@@ -64,7 +64,7 @@ body {
     list-style: none;
     gap: 12px;
     overflow-x: hidden;
-    scroll-behavior: smooth;
+    scroll-behavior: auto;
 }
 .tabs-box{
     scroll-behavior: auto;
@@ -80,7 +80,9 @@ body {
     border: 1px solid #d8d5f2;
 }
 .tabs-box.dragging .tab{
-    user-select: none;;
+    user-select: none;
+    /* pointer-events: none; */
+    /* user-select: none; */
 }
 .tabs-box .active{
     color: #fff;

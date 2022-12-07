@@ -1,6 +1,7 @@
 // Select the container with the class "tabs-box" and save its reference in the tabsBox constant
 const tabsBox = document.querySelector(".tabs-box")
 const arrowIcons = document.querySelectorAll(".icon i");
+allTabs = document.querySelectorAll(".tab")
 let isDragging = false;
 
 const handleIcons = () => {
@@ -15,6 +16,13 @@ arrowIcons.forEach(icon => {
         // if clicked icon is left, reduce 350 from tabsBox scrollLeft else add
         tabsBox.scrollLeft += icon.id ==="left" ? -350:350
         setTimeout(() => handleIcons(), 50)
+    });
+});
+
+allTabs.forEach(tab => {
+    tab.addEventListener("click", () => {
+       tabsBox.querySelector('.active').classList.remove('active')
+       tab.classList.add("active")
     });
 });
 
