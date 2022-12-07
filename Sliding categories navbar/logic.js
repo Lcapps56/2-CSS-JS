@@ -5,8 +5,9 @@ let isDragging = false;
 
 const handleIcons = () => {
     let scrollVal = tabsBox.scrollLeft
-    arrowIcons[0].parentElement.style.display = scrollVal > 0 ? "flex":"none"
-    arrowIcons[1].parentElement.style.display = scrollVal > 0 ? "flex":"none"
+    let scrollVal2 = tabsBox.scrollWidth - tabsBox.clientWidth
+    arrowIcons[0].parentElement.style.display = scrollVal <= 0 ? "none" : "flex";
+    arrowIcons[1].parentElement.style.display = scrollVal2 - scrollVal <= 1 ? "none" : "flex";
 }
 
 arrowIcons.forEach(icon => {
@@ -19,9 +20,10 @@ arrowIcons.forEach(icon => {
 
 // function telling element "tabsBox to scroll left by the value that the mouse is moving to the left (mose moves 10 px's, scroll left 10 px's)"
 const dragging = (e) => {
-    if(!isDragging) return
+    if(!isDragging) return;
+    tabsBox.classList.add("dragging");
     tabsBox.scrollLeft -= e.movementX;
-    tabsBox.classList.add('dragging')
+    handleIcons(tabsBox.scrollLeft)
 }
 
 const dragStop = () => {

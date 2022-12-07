@@ -82,3 +82,8 @@ body {
 .tabs-box.dragging .tab{
     user-select: none;;
 }
+.tabs-box .active{
+    color: #fff;
+    background-color: #5372F0;
+    border-color: transparent
+}
