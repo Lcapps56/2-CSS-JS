@@ -1,0 +1,37 @@
+@import '../design/colors';
+@import '../design/text';
+
+// @include for mixins
+// $ for variables
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px;
+    height: 50px;
+    align-items: center;
+    img{
+        height: 50px;
+        width: 50px;
+    }
+    ul{
+        display: flex;
+        li {
+            list-style: none;
+            a{
+                text-decoration: none;
+                color: black;
+                margin: 0px 25px;
+                font-family: 'Roboto', sans-serif;
+                transition: .2s;
+                font-size: 12px;
+            }
+            a:hover{
+                font-size: 60%;
+                color: grey;
+                padding: 0px 3px;
+                text-decoration: underline;
+            }
+        }
+    }
+}

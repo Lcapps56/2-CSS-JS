@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;400;700&display=swap");
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 150px;
+  height: 50px;
+  align-items: center;
+}
+header nav img {
+  height: 50px;
+  width: 50px;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li {
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  margin: 0px 25px;
+  font-family: "Roboto", sans-serif;
+  transition: 0.2s;
+  font-size: 12px;
+}
+header nav ul li a:hover {
+  font-size: 60%;
+  color: grey;
+  padding: 0px 3px;
+  text-decoration: underline;
+}
+
+section {
+  background-image: url("../images/pexels-cadeau-maestro-1170412.jpg");
+  background-repeat: none;
+  background-size: cover;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922), inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+  color: white;
+  height: 80vh;
+}
+section h1 {
+  font-family: "roboto";
+  font-size: 55px;
+  font-weight: light;
+}
+section p {
+  font-family: "roboto";
+  font-size: 30px;
+  font-weight: lighter;
+  margin-top: 10px;
+}
+section button {
+  margin-top: 10px;
+  background: #5A8ACC;
+  color: white;
+  font-family: "roboto";
+  font-size: 12px;
+  border: none;
+  padding: 10px 18px;
+}
+section .text {
+  width: 50%;
+  position: relative;
+  top: 150px;
+  left: 200px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}/*# sourceMappingURL=main.css.map */

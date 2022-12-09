@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;400;700&display=swap');
+
+@mixin primary-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+} 
+@mixin secondary-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+} 

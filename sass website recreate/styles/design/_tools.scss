@@ -1,0 +1,15 @@
+@mixin bg-image ($img){
+    background-image: $img;
+    background-repeat: none;
+    background-size: cover;
+    box-shadow: 0px 4px 4px 0px #00000040,inset 0 0 0 1000px rgba(0,0,0,.3)
+}
+
+@mixin btn (){
+    background: #5A8ACC;
+    color: white;
+    font-family: 'roboto';
+    font-size: 12px;
+    border: none;
+    padding: 10px 18px;
+}

@@ -1,0 +1,32 @@
+@import '../design/colors';
+@import '../design/text';
+@import '../design/tools';
+
+section{
+    @include bg-image(url('../images/pexels-cadeau-maestro-1170412.jpg'));
+    color: white;
+    height: 80vh;
+    h1{
+        font-family: "roboto";
+        font-size: 55px;
+        font-weight: light;
+        
+    }
+    p {
+        font-family: "roboto";
+        font-size: 30px;
+        font-weight: lighter;
+        margin-top: 10px;
+    }
+    button{
+        margin-top: 10px;
+        @include btn
+    }
+    .text{
+        width: 50%;
+        position: relative;
+        top: 150px;
+        left: 200px;
+    }
+
+}
