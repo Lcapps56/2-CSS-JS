@@ -3,7 +3,7 @@
 - HTML
 - CSS
 - SASS
--front-end Javascript (DOM manipulation)
+- front-end Javascript (DOM manipulation)
 
 Project Details and Desc.
 - 2 SASS youtube videos. 1 a crash course & 1 a code-along (REPO NAMES: SASS course, SASS code along)
