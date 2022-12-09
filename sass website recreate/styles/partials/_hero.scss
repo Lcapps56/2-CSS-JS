@@ -2,7 +2,7 @@
 @import '../design/text';
 @import '../design/tools';
 
-section{
+#hero{
     @include bg-image(url('../images/pexels-cadeau-maestro-1170412.jpg'));
     color: white;
     height: 80vh;
@@ -16,16 +16,16 @@ section{
         font-family: "roboto";
         font-size: 30px;
         font-weight: lighter;
-        margin-top: 10px;
+        margin-top: 15px;
     }
     button{
-        margin-top: 10px;
+        margin-top: 20px;
         @include btn
     }
     .text{
         width: 50%;
         position: relative;
-        top: 150px;
+        top: 175px;
         left: 200px;
     }
 

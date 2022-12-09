@@ -1,0 +1,16 @@
+@import '../design/colors';
+@import '../design/text';
+@import '../design/tools';
+
+#services{
+    padding: 50px 200px;
+    text-align: center;
+    font-family: 'roboto';
+    #all{
+        display: flex;
+        margin-top: 20px;
+    }
+    .service{
+        @include card
+    }
+}
