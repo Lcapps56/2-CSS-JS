@@ -3,6 +3,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;400;700&display=swap");
 header nav {
   display: flex;
   justify-content: space-between;
@@ -71,7 +75,7 @@ header nav ul li a:hover {
 }
 
 #services {
-  padding: 50px 200px;
+  padding: 50px 225px;
   text-align: center;
   font-family: "roboto";
 }
@@ -87,16 +91,118 @@ header nav ul li a:hover {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: bold;
-  margin: 15px;
+  margin: 15px 0;
 }
 #services .service p {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: lighter;
   margin-bottom: 15px;
-  padding: 0 25px;
 }
 #services .service button {
+  background: #5A8ACC;
+  color: white;
+  font-family: "roboto";
+  font-size: 12px;
+  border: none;
+  padding: 10px 22px;
+}
+#services .service p {
+  padding: 0 25px;
+}
+
+#work {
+  padding: 50px 225px;
+  text-align: center;
+  font-family: "roboto";
+}
+#work .examples {
+  display: flex;
+  margin-top: 30px;
+  margin: 0 auto;
+}
+#work .examples .example {
+  text-align: left;
+  margin: 20px;
+}
+#work .examples .example .fa {
+  color: #5A8ACC;
+  font-size: 30px;
+}
+#work .examples .example h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+#work .examples .example p {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  margin-bottom: 15px;
+}
+#work .examples .example button {
+  background: #5A8ACC;
+  color: white;
+  font-family: "roboto";
+  font-size: 12px;
+  border: none;
+  padding: 10px 22px;
+}
+#work .examples .example h2 {
+  margin: 18px 0;
+}
+#work .examples .example h3 {
+  font-size: 16px;
+}
+#work .examples .example p {
+  margin-top: 10px;
+  padding-right: 50px;
+}
+#work .examples .example img {
+  height: 150px;
+  width: 100%;
+}
+
+#about {
+  background-image: url("../images/pexels-cadeau-maestro-1170412.jpg");
+  background-repeat: none;
+  background-size: cover;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922), inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922), inset 0 0 0 1000px rgba(223, 222, 222, 0.755);
+  height: 500px;
+  padding-top: 150px;
+  margin: auto;
+}
+#about .content {
+  display: flex;
+  height: 70%;
+  width: 60%;
+  margin: auto;
+}
+#about .content img {
+  height: auto;
+  width: 50%;
+}
+#about .content .text {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+#about .content .text h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+#about .content .text p {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  font-weight: light;
+  margin-top: 20px;
+}
+#about .content .text button {
+  margin-top: 20px;
   background: #5A8ACC;
   color: white;
   font-family: "roboto";
@@ -109,4 +215,8 @@ header nav ul li a:hover {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+}
+
+html {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */

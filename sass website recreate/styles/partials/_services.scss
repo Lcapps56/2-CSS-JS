@@ -3,7 +3,7 @@
 @import '../design/tools';
 
 #services{
-    padding: 50px 200px;
+    padding: 50px 225px;
     text-align: center;
     font-family: 'roboto';
     #all{
@@ -11,6 +11,9 @@
         margin-top: 20px;
     }
     .service{
-        @include card
+        @include card;
+        p{
+            padding: 0 25px;
+        }
     }
 }
